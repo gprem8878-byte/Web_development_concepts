@@ -1,0 +1,29 @@
+h1{
+    background-color: burlywood;
+    height: 300px;
+    width: 400px;
+    /* border-width: 15px;
+    border-style: solid;
+    border-color: aqua; */
+    
+    /* border: 10px solid green; 
+    padding: 10px;
+    margin: 20px ;*/
+    border-top: 10px blueviolet dotted;
+    /* padding-top: 10px; */
+    /* padding: 10px 20px 30px 40px; */
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+h2{
+    background-color: cadetblue;
+    border: 2px blanchedalmond solid;
+}
+
+p{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 10px blue solid;
+    margin: 30px;
+}

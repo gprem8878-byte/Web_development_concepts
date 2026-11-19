@@ -1,0 +1,70 @@
+/* Selector or Tag selector */
+
+/* h1{
+    background-color: brown;
+    font-size: 50px;
+} */
+/* 
+ul{
+    background-color: chocolate;
+} */
+
+/* Selection on the basis of ID or # based selection */
+/* #Ex{
+    background-color: blueviolet;
+} */
+
+/* class based selection */
+/* .Third{
+    background-color: cyan;
+}
+.fourth{
+    background-color: darkcyan;
+} */
+/* Group based selection */
+/* h1 , .fourth ,#Ex{
+    background-color: rgba(130, 5, 30, 0.703);
+} */
+
+/* h1 , .fourth ,#Ex{
+    background-color: hsla(10, 76%, 33%, 0.832);
+} */
+
+/* font */
+
+h1{
+    font-size: medium;
+}
+li{
+    font-size: 1em;
+}
+html{
+    font-size: 40px;
+}
+
+/* h2{
+    font-size: 2rem;
+} */
+
+h2{
+    font-size: 2vw;
+}
+/* li{
+    font-size: 5vh;
+} */
+
+/* li{
+    font-size: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+} */
+
+/* Here the rgb - Red Green Blue 
+by using these color combination we can generate numerous colors
+color generation depends on the amount of each color
+Range is : (0-255)(0-255)(0-255)
+for example : 127 , 140,  209
+bits required : 8     8     8  = 24 bits = 3 byte
+Google fonts for any other font
+*/

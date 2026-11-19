@@ -1,0 +1,50 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+span{
+    color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    display: block ;  /*  used to change inline level into block*/
+} 
+h1{
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 300px;
+    border: orange 10px solid;
+    padding: 20px;
+    box-sizing: content-box;
+    /* padding: 20px;
+    margin: 20px; */
+   /* display: inline; */  /*  used to change block level into inline*/
+   /* display: inline-block; */
+}
+
+
+h2{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border: orange 10px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+
+
+
+
+/* IN case of span tag only left operations or horizontal only
+padding and margin - top , bootom , right are not allowed
+
+if we apply background color on the span it will look like it shows padding and margin 
+operations vertically but it only visually represent the background only does not apply 
+any vertical padding and margin
+
+in case of box-sizing : content-box 
+  the space for padding , margin , border these all will be additionally in the content size
+  
+whereas , in box-sizing: border-box 
+  everything(margin,border,padding) will be included in the size of the box  */

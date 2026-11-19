@@ -1,0 +1,59 @@
+/* 
+Flex box is only applied in the parent child relation
+
+parent: known as container
+child: known as item
+in flex box there are 2 axis in it 
+1 main axis 
+2 cross axis
+
+if the direction of flex or flex-direction is row then the main axis lies horizontally 
+and if the direction of flex or flex direction is column then the axis lies vertically
+
+--> justify-content always works around main axis 
+--> align-items always works around cross axis 
+--> flex wrap is used to make web page flexible for ex: if someone constrict the page the content should
+adjust appropriately so that user can see the whole content
+
+
+*/
+
+.first,.fourth,.second,.third{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+    flex-basis: 200px;
+}
+.second{
+    background-color: green;
+    /* flex-grow: 2; */
+}
+.third{
+    background-color: blue;
+    /* flex-grow: 3; */
+    align-self: flex-start;
+}
+.fourth{
+    background-color: red;
+   
+}
+.container{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;  
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    height: 500px;
+    /* justify-content: center; */
+    /* justify-content: space-around;*/
+    justify-content:space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+}

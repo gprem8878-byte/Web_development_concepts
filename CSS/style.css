@@ -1,0 +1,38 @@
+
+
+/* h1{
+    background-color: coral;
+}
+
+h1{
+    background-color: chartreuse !important;
+}
+.classA{
+    background-color: blueviolet;
+}
+
+#first{
+    background-color: cadetblue ;
+} */
+
+/* 
+Inline CSS have the highest priority 
+In case of , internal css and external css order of the execution matters :
+    it means if the internal css instruction is written before the external css 
+    the external css changes will prefer 
+    
+Now , in case of ID , CLASS and Tag
+The ID have the highest priority (Since, it is unique for every element)
+
+
+Priority list :
+0 Important marked element 
+1 Inline CSS
+2 ID
+3 Class
+4 tag
+
+In case of two same tags, the ordering matters , it means that the tag which is in the last position
+it will show its property
+
+*/

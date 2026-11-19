@@ -1,0 +1,31 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h2{
+    background-color: burlywood;
+    position: relative;
+    left: 100px;
+    /* top: 50px;
+    bottom: 10px; */
+}
+
+h3{
+    background-color: brown;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+
+h4{
+    background-color: yellowgreen;
+    position: sticky;
+    top: 0px;
+}
+
+p{
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 50px;
+    z-index: 10;
+}
